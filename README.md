@@ -8,11 +8,11 @@ To use this component render the custom React component ResponsiveVideo like see
 
 with the following CSS:
 
-
-```iframe{
+```
+iframe{
 	width: 100%;
-}```
-
+}
+```
 
 and React will take care of the rest!
 
