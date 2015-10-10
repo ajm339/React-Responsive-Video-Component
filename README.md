@@ -4,13 +4,15 @@ When building www.macrofuelfood.com, I wanted to have my YouTube videos respond 
 
 To use this component render the custom React component ResponsiveVideo like seen below:
 
-<ResponsiveVideo source="https://your-video-url" width="your-video-width" height="your-video-height" />
+```<ResponsiveVideo source="https://your-video-url" width="your-video-width" height="your-video-height" />```
 
 with the following CSS:
 
+```
 iframe{
 	width: 100%;
 }
+```
 
 and React will take care of the rest!
 
