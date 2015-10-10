@@ -36,7 +36,7 @@ ResponsiveVideo = React.createClass({
   },
 	render () {
 		return (
-			<iframe ref="iframe" src={this.props.source} frameborder="0" height={this.state.videoHeight} allowfullscreen></iframe>
+			<iframe ref="iframe" src={this.props.source} frameBorder="0" height={this.state.videoHeight} allowFullScreen></iframe>
 		);
 	}
 });
